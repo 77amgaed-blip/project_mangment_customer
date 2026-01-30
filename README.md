@@ -114,7 +114,8 @@ technical_notes:
 <details>
   <summary>Drawer</summary>
 
-![Control_Panel](imagesph/control_panel.jpg)
+  - ![Control_Panel](imagesph/control_panel.jpg)
+  + ![Control_Panel](imagesph/control_panel.jpg)
 
 </details>
 
