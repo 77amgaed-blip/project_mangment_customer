@@ -114,7 +114,7 @@ technical_notes:
 <details>
   <summary>Drawer</summary>
 
-  ![settings_screenshot](https://i.postimg.cc/q73SJwd9/IMG-20260126-WA0006.jpg)
+![Control Panel](imagesph/control_panel.jpg)
 
 </details>
 
