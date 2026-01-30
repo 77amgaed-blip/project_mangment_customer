@@ -112,8 +112,10 @@ technical_notes:
 
 
 <details>
-<summary>Drawer</summary>
-<img width="543" height="925" alt="settings_screenshot" src="https://i.postimg.cc/q73SJwd9/IMG-20260126-WA0006.jpg)](https://postimg.cc/v1G3XWTz)" />
+  <summary>Drawer</summary>
+
+  ![settings_screenshot](https://i.postimg.cc/q73SJwd9/IMG-20260126-WA0006.jpg)
+
 </details>
 
 <details>
