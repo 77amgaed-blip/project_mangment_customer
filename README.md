@@ -112,10 +112,10 @@ technical_notes:
 
 
 <details>
-  <summary>Drawer</summary>
+<summary>Drawer</summary>
+<img width="543" height="925" alt="settings_screenshot" src="https://i.postimg.cc/q73SJwd9/IMG-20260126-WA0006.jpg)](https://postimg.cc/v1G3XWTz)" />
+</details>
 
-  - ![Control_Panel](imagesph/control_panel.jpg)
-  + ![Control_Panel](imagesph/control_panel.jpg)
 
 </details>
 
