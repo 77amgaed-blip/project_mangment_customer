@@ -1,186 +1,75 @@
-# ======================================
-# Project Management Customer (Flutter)
-# ======================================
+# 📱 دفتر الديون الذكي (Smart Debt Notebook)
+**الحل الأمثل لإدارة الحسابات المالية بدقة وأمان**
 
-project:
-  name: "Project Management Customer"
-  platform: "Flutter"
-  programming_language: "Dart"
-  ui_language: "Arabic"
+[![Status](https://img.shields.io/badge/Status-Completed-success)]()
+[![Framework](https://img.shields.io/badge/Framework-Flutter-blue)]()
+[![Architecture](https://img.shields.io/badge/Architecture-MVC-green)]()
 
-# --------------------------------------
-# Description
-# --------------------------------------
-description: >
-  تطبيق لإدارة العملاء والديون مبني باستخدام Flutter.
-  يساعد أصحاب الأعمال على تتبع العملاء، تسجيل الديون،
-  متابعة التحصيل، ومعرفة المبالغ المستحقة من خلال
-  واجهة عربية بسيطة وسهلة الاستخدام.
+تطبيق محمول متطور تم بناؤه باستخدام **Flutter** ليكون بديلك العصري للدفاتر الورقية. [cite_start]يهدف المشروع إلى أتمتة إدارة الديون والتحصيلات المالية، مما يضمن الدقة ومنع ضياع الحقوق المالية[cite: 16, 17, 39].
 
-  التطبيق يعمل حاليًا ببيانات محلية (بدون قاعدة بيانات)
-  ومناسب كمشروع تعليمي أو مشروع تخرج.
+---
 
-# --------------------------------------
-# Features
-# --------------------------------------
-features:
-  authentication:
-    - "شاشة تسجيل دخول"
-  customer_management:
-    - "إضافة عميل"
-    - "تعديل بيانات العميل"
-    - "حذف عميل"
-  debt_management:
-    - "إضافة دين"
-    - "تحديد تاريخ الاستحقاق"
-    - "عرض حالة الدين (نشط / متأخر / مسدد)"
-  collection:
-    - "تحصيل الديون"
-    - "تحديث حالة الدين تلقائيًا"
-  dashboard:
-    - "إجمالي الديون"
-    - "المبلغ المحصل"
-    - "المبلغ المتبقي"
-  navigation:
-    - "قائمة جانبية Drawer"
-  localization:
-    - "واجهة عربية بالكامل"
+## 🎯 Project Overview | نظرة عامة
+يعد التطبيق شريكك المالي الأمثل الذي يوفر:
+- [cite_start]**أمان تام:** قاعدة بيانات رقمية لا تضيع ولا تتلف عكس الدفاتر الورقية[cite: 40, 43].
+- [cite_start]**دقة مالية:** حسابات تلقائية فورية دون تدخل بشري لمنع أخطاء الجمع اليدوي[cite: 41, 44].
+- [cite_start]**مساعد ذكي:** تنبيهات آلية بمواعيد السداد قبل فوات الأوان[cite: 46, 47].
 
-# --------------------------------------
-# Technologies
-# --------------------------------------
-technologies:
-  framework: "Flutter"
-  language: "Dart"
-  design: "Material Design"
-  state_management: "setState"
+## ✨ Key Features | المميزات الرئيسية
+- [cite_start]**لوحة تحكم شاملة:** عرض فوري لإجمالي الديون، المبالغ المحصلة، والمتبقي بنسب إحصائية دقيقة[cite: 54, 55, 59].
+- [cite_start]**نظام التنبيهات:** تصنيف الديون حسب الإلحاح (متأخرة، مستحقة خلال 7 أيام، أو 30 يوماً)[cite: 167, 169].
+- [cite_start]**إدارة التحصيل المرنة:** دعم تسجيل الدفعات الجزئية (الأقساط) مع تحديث تلقائي للمبالغ المتبقية[cite: 127, 129, 131].
+- [cite_start]**الخصوصية المطلقة:** تخزين محلي كامل للبيانات (Offline Database) مع حماية الدخول بكلمة مرور[cite: 180, 183, 184].
+- [cite_start]**تجربة مستخدم مخصصة:** دعم تعدد العملات، الوضع الداكن (Dark Mode)، واللغتين العربية والإنجليزية[cite: 192, 193, 195].
 
-# --------------------------------------
-# Project Structure
-# --------------------------------------
-project_structure:
-  lib:
-    main.dart: "تشغيل التطبيق + تسجيل الدخول"
-    home.dart: "لوحة التحكم الرئيسية"
-    drawer.dart: "القائمة الجانبية"
-    customers.dart: "إدارة العملاء"
-    customerAuditing.dart: "تفاصيل حساب العميل"
-    addDebtPage.dart: "إضافة دين جديد"
-    collectionPage.dart: "صفحة التحصيل (قيد التطوير)"
+## 🛠️ Tech Stack | التقنيات المستخدمة
+| التقنية | الدور في المشروع |
+| :--- | :--- |
+| **Flutter** | [cite_start]إطار العمل الأساسي لبناء التطبيق[cite: 26]. |
+| **MVC Pattern** | [cite_start]هندسة البرمجيات المتبعة لضمان فصل منطق البيانات عن الواجهات[cite: 26]. |
+| **GetX** | [cite_start]الأداة الأساسية لإدارة الحالة (State Management) والتنقل بسلاسة[cite: 32, 33]. |
+| **SQLite (sqflite)** | [cite_start]قاعدة بيانات محلية لتخزين بيانات العملاء والديون بأمان[cite: 34]. |
+| **Image Picker** | [cite_start]ميزة التقاط أو اختيار صور الملف الشخصي من المعرض[cite: 28]. |
 
-# --------------------------------------
-# How to Run
-# --------------------------------------
-run_instructions:
-  prerequisites:
-    - "Flutter SDK مثبت"
-    - "Android Studio أو VS Code"
-  steps:
-    - "flutter doctor"
-    - "git clone https://github.com/USERNAME/project_mangment_customer.git"
-    - "cd project_mangment_customer"
-    - "flutter pub get"
-    - "flutter run"
-
-# --------------------------------------
-# Login Credentials
-# --------------------------------------
-login_credentials:
-  username: "amgad"
-  password: "amgad"
-  warning: "بيانات ثابتة للتجربة فقط"
-
-# --------------------------------------
-# Technical Notes
-# --------------------------------------
-technical_notes:
-  data_storage:
-    - "Local State باستخدام Lists"
-    - "لا يوجد قاعدة بيانات"
-  backend:
-    status: "غير مستخدم حاليًا"
-  future_database_options:
-    - "SQLite"
-    - "Firebase"
-    - "REST API"
-
-# --------------------------------------
-# Screenshots
-# --------------------------------------
-## 📸 صور التطبيق
- 📸 App Screenshots
-
+## 📸 App Preview | معاينة التطبيق
 
 <details>
-<summary>Drawer</summary>
-<img width="543" height="925" alt="settings_screenshot" src="https://i.postimg.cc/q73SJwd9/IMG-20260126-WA0006.jpg)](https://postimg.cc/v1G3XWTz)" />
-</details>
-
-
+<summary>الشاشة الرئيسية ولوحة التحكم (Home)</summary>
+<img width="300" alt="Home" src="https://i.postimg.cc/3xczHRdw/IMG-20260126-WA0007.jpg" />
 </details>
 
 <details>
-<summary>Rebot</summary>
-<img width="543" height="925" alt="settings_screenshot"
-  src="https://i.postimg.cc/fLg98cVQ/IMG-20260126-WA0005.jpg)](https://postimg.cc/KkBjzg70" />
+<summary>تسجيل الدخول (Login)</summary>
+<img width="300" alt="Login" src="https://i.postimg.cc/CxBfmPDz/IMG-20260126-WA0011.jpg" />
 </details>
 
 <details>
-<summary>Setteings</summary>
-<img width="543" height="925" alt="settings_screenshot"
-  src="https://i.postimg.cc/vZq6zRDK/IMG-20260126-WA0004.jpg)](https://postimg.cc/JsXnr2N3" />
+<summary>قائمة العملاء (Customers)</summary>
+<img width="300" alt="Customers" src="https://i.postimg.cc/FHVQ5m0Y/IMG-20260126-WA0002.jpg" />
 </details>
 
 <details>
-<summary>Add client</summary>
-<img width="543" height="925" alt="settings_screenshot"
-  src="https://i.postimg.cc/s2rbwL89/IMG-20260126-WA0003.jpg)](https://postimg.cc/68MHQMBy" />
+<summary>إضافة عميل جديد (Add Client)</summary>
+<img width="300" alt="Add Client" src="https://i.postimg.cc/s2rbwL89/IMG-20260126-WA0003.jpg" />
 </details>
 
 <details>
-<summary>Custemrs</summary>
-<img width="543" height="925" alt="settings_screenshot"
-  src="https://i.postimg.cc/FHVQ5m0Y/IMG-20260126-WA0002.jpg)](https://postimg.cc/rDsHxBnT" />
+<summary>الإحصائيات والتقارير (Achievement)</summary>
+<img width="300" alt="Achievement" src="https://i.postimg.cc/PxxHQcpM/IMG-20260126-WA0009.jpg" />
 </details>
 
 <details>
-<summary>Login</summary>
-<img width="543" height="925" alt="settings_screenshot"
-  src="https://i.postimg.cc/CxBfmPDz/IMG-20260126-WA0011.jpg)](https://postimg.cc/ZWmRqLwS" />
+<summary>الإعدادات وتخصيص المظهر (Settings)</summary>
+<img width="300" alt="Settings" src="https://i.postimg.cc/vZq6zRDK/IMG-20260126-WA0004.jpg" />
 </details>
 
-<details>
-<summary>Achievement</summary>
-<img width="543" height="925" alt="settings_screenshot"
-  src="https://i.postimg.cc/PxxHQcpM/IMG-20260126-WA0009.jpg)](https://postimg.cc/KKdCZ05K" />
-</details>
+---
 
-<details>
-<summary>Home</summary>
-<img width="543" height="925" alt="settings_screenshot"
-  src="https://i.postimg.cc/3xczHRdw/IMG-20260126-WA0007.jpg)](https://postimg.cc/87LZRTd8" />
-</details>
+## 👤 Author | المطور
+**الاسم:** أمجد (Amgaed)  
+**GitHub:** [77amgaed-blip](https://github.com/77amgaed-blip)  
+**البريد الإلكتروني:** 77amgaed@gmail.com  
+**واتساب:** [967778480008](https://wa.me/967778480008)
 
-
-# --------------------------------------
-# Future Enhancements
-# --------------------------------------
-future_plans:
-  - "ربط قاعدة بيانات حقيقية"
-  - "تقارير مالية شهرية وسنوية"
-  - "إشعارات تذكير بمواعيد الاستحقاق"
-  - "تحسين تجربة المستخدم"
-
-# --------------------------------------
-# Developer
-# --------------------------------------
-developer:
-  name: "امجد صادق"
-  github: "https://github.com/USERNAME"
-
-# --------------------------------------
-# License
-# --------------------------------------
-license:
-  type: "Open Source"
-  usage: "تعليمي / تدريبي"
+---
+*تم تطوير هذا المشروع لتقديم حلول مالية ذكية تساهم في تنظيم الديون وزيادة نسبة التحصيل.*
